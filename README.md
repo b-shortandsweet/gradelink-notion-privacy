@@ -15,9 +15,13 @@ workspace, at the parent's request.
 ## What the extension reads
 
 When you are on the Grades page of your Gradelink portal and you click the
-extension's button, it reads the assignments shown on that page — course name,
+extension's button, it reads the assignments shown on that page: course name,
 assignment title, description, the dates the teacher entered, and any files the
-teacher attached. It reads nothing else, and it reads nothing at any other time.
+teacher attached. It also reads your child's name as the portal shows it, and
+the teacher's email address, which the portal publishes as a contact link on
+each course.
+
+It reads nothing else, and it reads nothing at any other time.
 
 ## Where that information goes
 
@@ -57,9 +61,13 @@ access to it, no copy of it, and no way to obtain it.
 
 ## What is never collected
 
-No browsing history, no cookies, no passwords, no Gradelink login credentials,
-no page contents outside the Grades page, and no personally identifying
-information about anyone — parent or child.
+No browsing history, no cookies, no passwords and no Gradelink login
+credentials. Nothing outside the Grades page is read.
+
+The personal details it does handle — your children's names and their teachers'
+email addresses — are read only because they are part of the assignment you are
+filing, and they go only into your own Notion. The developer never receives
+them.
 
 ## Selling or sharing data
 
